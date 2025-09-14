@@ -5,6 +5,7 @@ import Contact from "@/Components/Contact/Contact";
 import Faqs from "@/Components/FAQS/Faqs";
 import Faculty from "@/Components/Faulty/Faculty";
 import Footer from "@/Components/Footer";
+import Lowerfooter from "@/Components/Lowerfooter";
 import Personalized from "@/Components/Personalized/Personalized";
 import Topuniversity from "@/Components/Toponlineuni/Topuniversity";
 
@@ -35,6 +36,7 @@ export default function Home() {
        <Contact />
 
        <Footer />
+       <Lowerfooter />
     </>
 
   );
