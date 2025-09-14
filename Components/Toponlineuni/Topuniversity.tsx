@@ -1,4 +1,5 @@
 import React from 'react'
+import Topunibox from './Topunibox';
 
 const Topuniversity = () => {
     return (
@@ -21,7 +22,25 @@ const Topuniversity = () => {
                     </div>
 
 
-                        
+                    <div className='mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7 w-full'>
+                        <Topunibox />
+
+
+                    </div>
+
+                    <div className='flex justify-center items-center'>
+
+                        <div className='flex justify-center items-center gap-2 mt-12 underline rounded-full bg-gradient-to-r from-[#36bda4] to-[#f4de6d] text-white text-base font-semibold px-7 py-3 shadow-lg hover:scale-105 transition-all duration-150 w-fit'>
+                            <span>✨</span>
+                            <p className='text-blue-700'>Get Personalized University Suggestion</p>
+                        </div>
+
+                    </div>
+
+
+
+
+
 
                 </div>
             </div>
